@@ -57,7 +57,7 @@ catalog:
   '@vitest/ui': ^5.0.5
   vitest: ^5.0.5
   wrangler: ^4.151.2
-  zod: ^4.5.4
+  zod: ^4.6.7
   zod-to-json-schema: ^3.25.2
 
 catalogs:
@@ -81,6 +81,8 @@ catalogs:
 minimumReleaseAge: 4320
 
 minimumReleaseAgeExclude:
+  # security fix GHSA-27r3-jxmh-p828; remove after 2026-10-26.
+  - body-parser@2.4.0
   # Requested Effect 4.0.3 migration; exempt only this verified release family.
   # Remove after 2026-10-14, once every package is older than the 3-day cutoff.
   - effect@4.0.3
@@ -123,7 +125,17 @@ overrides:
   # temporary: @ai-sdk/provider-utils@4 exact-pins vulnerable undici 5.x;
   # GHSA-rfgv-xxqx-mfg5 raised the patched floor to 6.28.1. Drop when it ships
   # >=6.28.1.
-  'undici@>=5.0.0 <6.28.1': '>=6.28.1 <7'
+  'undici@>=5.0.0 <6.29.1': '>=6.29.1 <7'
+  # fork security floors (GHSA-xjj6-f33q-929c, GHSA-27r3-jxmh-p828,
+  # GHSA-gfr2-rv44-r23c, GHSA-587h-7wmj-h5pm, GHSA-wq5f-xc86-pv6w,
+  # GHSA-pqg4-j6r4-53mv, GHSA-mrhx-c7xc-m3w5).
+  'undici@>=7.0.0 <7.30.1': '>=7.30.1 <8'
+  'undici@>=8.0.0 <8.12.2': '>=8.12.2 <9'
+  'body-parser@>=2.0.0 <2.4.0': '>=2.4.0 <3'
+  'markdown-it@>=14.0.0 <14.3.3': '>=14.3.3 <15'
+  'launch-editor@<2.14.2': '>=2.14.2 <3'
+  'shell-quote@>=1.8.4 <1.11.0': '>=1.11.0 <2'
+  'zod@>=4.0.0 <4.6.6': '>=4.6.6 <5'
   # temporary: gray-matter (via @mastra/core) exact-pins vulnerable js-yaml 3.15.0;
   # GHSA-2883-xcg3-v3hh raised the patched floor to 3.15.2. Drop when it ships
   # >=3.15.2.
@@ -180,8 +192,8 @@ overrides:
   # with GHSA-g89c-p67h-r497 and GHSA-2jg2-4ch7-h545. Nothing here imports
   # sharp; miniflare only uses it to emulate the Images binding. Drop when
   # miniflare pins >=0.35.4.
-  'sharp@<0.35.4': '>=0.35.4 <0.36'
-  'vite@<=7.3.4': 7.3.5
+  'sharp@<0.35.5': '>=0.35.5 <0.36'
+  'vite@<=7.3.6': 7.3.7
   'esbuild@>=0.27.3 <0.28.1': 0.28.1
 
 auditConfig:
