@@ -47,7 +47,7 @@ catalog:
   ai: ^7.0.146
   dotenv: ^18.0.8
   effect: 4.0.5
-  hono: ^4.13.13
+  hono: ^4.13.16
   openai: ^7.39.0
   picocolors: ^1.1.1
   publint: ^0.3.25
