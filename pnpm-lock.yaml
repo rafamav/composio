@@ -61,8 +61,8 @@ catalogs:
       specifier: 4.0.5
       version: 4.0.5
     hono:
-      specifier: ^4.13.13
-      version: 4.13.13
+      specifier: ^4.13.16
+      version: 4.13.18
     openai:
       specifier: ^7.39.0
       version: 7.39.0
@@ -289,7 +289,7 @@ importers:
         version: link:../../../../packages/core
       hono:
         specifier: 'catalog:'
-        version: 4.13.13
+        version: 4.13.18
       openai:
         specifier: 'catalog:'
         version: 7.39.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.7)
@@ -320,7 +320,7 @@ importers:
         version: link:../../../../packages/core
       hono:
         specifier: 'catalog:'
-        version: 4.13.13
+        version: 4.13.18
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: 'catalog:'
@@ -360,7 +360,7 @@ importers:
         version: 7.0.146(zod@4.6.7)
       hono:
         specifier: 'catalog:'
-        version: 4.13.13
+        version: 4.13.18
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: 'catalog:'
@@ -488,7 +488,7 @@ importers:
         version: 1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76)
       '@mastra/mcp':
         specifier: 1.17.2
-        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76))(express@5.3.0)(hono@4.13.13)(zod@3.25.76)
+        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76))(express@5.3.0)(hono@4.13.18)(zod@3.25.76)
       ai:
         specifier: ^6.0.311
         version: 6.0.311(zod@3.25.76)
@@ -516,7 +516,7 @@ importers:
         version: 1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7)
       '@mastra/mcp':
         specifier: 1.17.2
-        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.13)(zod@4.6.7)
+        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.18)(zod@4.6.7)
       ai:
         specifier: ^6.0.311
         version: 6.0.311(zod@4.6.7)
@@ -626,7 +626,7 @@ importers:
         version: 1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7)
       '@mastra/mcp':
         specifier: 1.17.2
-        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.13)(zod@4.6.7)
+        version: 1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.18)(zod@4.6.7)
       ai:
         specifier: ^6.0.311
         version: 6.0.311(zod@4.6.7)
@@ -676,7 +676,7 @@ importers:
         version: link:../../packages/core
       hono:
         specifier: 'catalog:'
-        version: 4.13.13
+        version: 4.13.18
       openai:
         specifier: 'catalog:'
         version: 7.39.0(@aws-sdk/credential-provider-node@3.972.84)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.7)
@@ -839,13 +839,13 @@ importers:
         version: 0.4.23(@llamaindex/core@0.6.23)(@llamaindex/env@0.1.31)(ws@8.22.0)(zod@4.6.7)
       '@llamaindex/workflow':
         specifier: ^1.1.25
-        version: 1.1.25(@llamaindex/core@0.6.23)(@llamaindex/env@0.1.31)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)
+        version: 1.1.25(@llamaindex/core@0.6.23)(@llamaindex/env@0.1.31)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)
       dotenv:
         specifier: 'catalog:'
         version: 18.0.8
       llamaindex:
         specifier: ^0.12.1
-        version: 0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7)
+        version: 0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7)
     devDependencies:
       '@types/bun':
         specifier: 'catalog:'
@@ -1382,7 +1382,7 @@ importers:
     devDependencies:
       '@hono/node-server':
         specifier: ^2.1.4
-        version: 2.1.4(hono@4.13.13)
+        version: 2.1.4(hono@4.13.18)
       '@type-challenges/utils':
         specifier: ^0.1.1
         version: 0.1.1
@@ -1397,7 +1397,7 @@ importers:
         version: 4.10.2
       hono:
         specifier: 'catalog:'
-        version: 4.13.13
+        version: 4.13.18
       tsdown:
         specifier: 'catalog:'
         version: 0.23.1(@arethetypeswrong/core@0.18.5)(@typescript/typescript6@6.0.2)(publint@0.3.25)(tsx@4.23.15)(unrun@0.2.27(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.3))
@@ -1631,7 +1631,7 @@ importers:
     dependencies:
       llamaindex:
         specifier: ^0.12.0
-        version: 0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7)
+        version: 0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7)
     devDependencies:
       '@composio/core':
         specifier: workspace:*
@@ -3909,14 +3909,23 @@ packages:
   '@smithy/core@3.35.0':
     resolution: {integrity: sha512-zRMhfkByhT2snNdr1si24vJitU6Cr9ix2MikUfWmkAgp4jrNP0GcKSP5YvwQ+TlI8AZXER5QOGJn3JsVtSD9/A==}
     engines: {node: '>=18.0.0'}
+    deprecated: |-
+      Deprecated due to a bug in custom logger data redaction. Upgrade to the latest version. If you used a custom logger with this
+        version, review your logs and rotate any credentials or other secrets. See https://github.com/aws/aws-sdk-js-v3/issues/8393.
 
   '@smithy/core@3.35.2':
     resolution: {integrity: sha512-ejTukBuP/Pg3t9N8Ux+0zKsXeHWm7p6W3HbXFOyltKasSxZwCFmvTut7kBdZSCF3m9y1bXXyVu6p2xuMFcsTyQ==}
     engines: {node: '>=18.0.0'}
+    deprecated: |-
+      Deprecated due to a bug in custom logger data redaction. Upgrade to the latest version. If you used a custom logger with this
+        version, review your logs and rotate any credentials or other secrets. See https://github.com/aws/aws-sdk-js-v3/issues/8393.
 
   '@smithy/core@3.36.0':
     resolution: {integrity: sha512-3hJiwG1F5t1SoXqp/yOCmYXziyx7ZVqF63S5W6YU201e/qwVaHPex+E/3vvyY9a3ORq/b+BydeNZpP2saQ9X2g==}
     engines: {node: '>=18.0.0'}
+    deprecated: |-
+      Deprecated due to a bug in custom logger data redaction. Upgrade to the latest version. If you used a custom logger with this
+        version, review your logs and rotate any credentials or other secrets. See https://github.com/aws/aws-sdk-js-v3/issues/8393.
 
   '@smithy/credential-provider-imds@4.5.2':
     resolution: {integrity: sha512-A9uSdn72ozbRUSit0eib0TW7nXuNPlaeM0zcGkJ+nE6tFcSDbnmtwoxbTCFBukVQcszDAyvsd7+rTduPTXpygg==}
@@ -5025,6 +5034,10 @@ packages:
 
   hono@4.13.13:
     resolution: {integrity: sha512-CQ46U0ZkAGmbT/4UxdzzGJpacP2IeKgY4a5/tOI9AABbpOMfK739wfDXmv1usCk+3RkKj1hQy4/fjhiwa2xlrA==}
+    engines: {node: '>=16.9.0'}
+
+  hono@4.13.18:
+    resolution: {integrity: sha512-H9q/E1XizaWstJxUW881dmLxEj+t/TrGGnyxINkm4+sK0qUwsMtFdo2BWI9Vs3cIS19MU6b6iCijoUoEf4f3DA==}
     engines: {node: '>=16.9.0'}
 
   hookable@6.1.1:
@@ -7800,6 +7813,10 @@ snapshots:
     dependencies:
       hono: 4.13.13
 
+  '@hono/node-server@2.1.4(hono@4.13.18)':
+    dependencies:
+      hono: 4.13.18
+
   '@hono/node-server@2.1.5(hono@4.13.13)':
     dependencies:
       hono: 4.13.13
@@ -8050,17 +8067,17 @@ snapshots:
       - ws
       - zod
 
-  '@llamaindex/workflow-core@1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)':
+  '@llamaindex/workflow-core@1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)':
     optionalDependencies:
       '@modelcontextprotocol/sdk': 1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7)
-      hono: 4.13.13
+      hono: 4.13.18
       zod: 4.6.7
 
-  '@llamaindex/workflow@1.1.24(@llamaindex/core@0.6.22)(@llamaindex/env@0.1.30)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)':
+  '@llamaindex/workflow@1.1.24(@llamaindex/core@0.6.22)(@llamaindex/env@0.1.30)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)':
     dependencies:
       '@llamaindex/core': 0.6.22
       '@llamaindex/env': 0.1.30
-      '@llamaindex/workflow-core': 1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)
+      '@llamaindex/workflow-core': 1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
       - hono
@@ -8069,11 +8086,11 @@ snapshots:
       - rxjs
       - zod
 
-  '@llamaindex/workflow@1.1.25(@llamaindex/core@0.6.23)(@llamaindex/env@0.1.31)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)':
+  '@llamaindex/workflow@1.1.25(@llamaindex/core@0.6.23)(@llamaindex/env@0.1.31)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)':
     dependencies:
       '@llamaindex/core': 0.6.23
       '@llamaindex/env': 0.1.31
-      '@llamaindex/workflow-core': 1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)
+      '@llamaindex/workflow-core': 1.3.4(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)
     transitivePeerDependencies:
       - '@modelcontextprotocol/sdk'
       - hono
@@ -8199,13 +8216,13 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@mastra/mcp@1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76))(express@5.3.0)(hono@4.13.13)(zod@3.25.76)':
+  '@mastra/mcp@1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76))(express@5.3.0)(hono@4.13.18)(zod@3.25.76)':
     dependencies:
       '@mastra/core': 1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@3.25.76))(express@5.3.0)(zod@3.25.76)
       '@modelcontextprotocol/client': 2.3.1
       '@modelcontextprotocol/core': 2.3.1
       '@modelcontextprotocol/ext-apps': 1.7.5(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@3.25.76))(zod@3.25.76)
-      '@modelcontextprotocol/node': 2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.13)
+      '@modelcontextprotocol/node': 2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.18)
       '@modelcontextprotocol/sdk': 1.32.1(@cfworker/json-schema@4.1.1)(zod@3.25.76)
       '@modelcontextprotocol/server': 2.3.1
       '@modelcontextprotocol/server-legacy': 2.3.1(express@5.3.0)
@@ -8220,13 +8237,13 @@ snapshots:
       - supports-color
       - zod
 
-  '@mastra/mcp@1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.13)(zod@4.6.7)':
+  '@mastra/mcp@1.17.2(@cfworker/json-schema@4.1.1)(@mastra/core@1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7))(express@5.3.0)(hono@4.13.18)(zod@4.6.7)':
     dependencies:
       '@mastra/core': 1.53.0(@cfworker/json-schema@4.1.1)(ai@6.0.311(zod@4.6.7))(express@5.3.0)(zod@4.6.7)
       '@modelcontextprotocol/client': 2.3.1
       '@modelcontextprotocol/core': 2.3.1
       '@modelcontextprotocol/ext-apps': 1.7.5(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(zod@4.6.7)
-      '@modelcontextprotocol/node': 2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.13)
+      '@modelcontextprotocol/node': 2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.18)
       '@modelcontextprotocol/sdk': 1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7)
       '@modelcontextprotocol/server': 2.3.1
       '@modelcontextprotocol/server-legacy': 2.3.1(express@5.3.0)
@@ -8289,12 +8306,12 @@ snapshots:
       '@standard-schema/spec': 1.1.0
       zod: 4.6.7
 
-  '@modelcontextprotocol/node@2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.13)':
+  '@modelcontextprotocol/node@2.0.0(@modelcontextprotocol/server@2.3.1)(hono@4.13.18)':
     dependencies:
-      '@hono/node-server': 2.1.4(hono@4.13.13)
+      '@hono/node-server': 2.1.4(hono@4.13.18)
       '@modelcontextprotocol/server': 2.3.1
     optionalDependencies:
-      hono: 4.13.13
+      hono: 4.13.18
 
   '@modelcontextprotocol/sdk@1.32.0(@cfworker/json-schema@4.1.1)(zod@3.25.76)':
     dependencies:
@@ -9944,6 +9961,8 @@ snapshots:
 
   hono@4.13.13: {}
 
+  hono@4.13.18: {}
+
   hookable@6.1.1: {}
 
   hookable@6.1.2: {}
@@ -10172,12 +10191,12 @@ snapshots:
     optionalDependencies:
       yaml: 2.9.1
 
-  llamaindex@0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7):
+  llamaindex@0.12.1(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)(zod@4.6.7):
     dependencies:
       '@llamaindex/core': 0.6.22
       '@llamaindex/env': 0.1.30
       '@llamaindex/node-parser': 2.0.22(@llamaindex/core@0.6.22)(@llamaindex/env@0.1.30)(tree-sitter@0.22.4)(web-tree-sitter@0.24.7)
-      '@llamaindex/workflow': 1.1.24(@llamaindex/core@0.6.22)(@llamaindex/env@0.1.30)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.13)(zod@4.6.7)
+      '@llamaindex/workflow': 1.1.24(@llamaindex/core@0.6.22)(@llamaindex/env@0.1.30)(@modelcontextprotocol/sdk@1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.7))(hono@4.13.18)(zod@4.6.7)
       '@types/lodash': 4.17.24
       '@types/node': 24.13.3
       lodash: 4.18.1
